@@ -1,0 +1,42 @@
+.about-background{
+    max-width: 1280px;
+    background: #FFF;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 120px;
+    padding: 80px 40px;
+}
+
+
+.about-text-h1{
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    margin-bottom: 25px;
+    width: 370px
+}
+
+.about-text-p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    width: 430px;
+}
+
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.a-margin{
+    margin-bottom: 25px;
+}

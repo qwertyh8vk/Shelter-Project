@@ -1,0 +1,119 @@
+.looking-page-h1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;  
+    text-align: center;
+    letter-spacing: 0.06em;
+    width: 400px;
+    margin-top: 80px;
+}
+
+
+.looking-page-background{
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.looking-page-button{
+    border: none;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background-color: #F6F6F6;
+}
+
+.looking-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 58px;
+    max-width: 1280px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.looking-page-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.looking-page-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 85px;
+    margin-top: 60px;
+}
+
+.card-title{
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;;
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+}
+
+.card-button{
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border-color: #F1CDB3;
+    border: 2px solid #F1CDB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+
+}
+
+.end-lpage-button, .card-button{
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.end-lpage-button{
+    background:#F1CDB3;
+    border: 2px solid #F1CDB3;
+    width: 261px;
+    height: 52px;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    font-family: 'Georgia';
+    margin-top: 75px;
+
+}
