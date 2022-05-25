@@ -1,0 +1,55 @@
+.help-tips-background{
+    background-color: white;
+
+}
+
+.help-tips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-h1{
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    width: 410px;
+    font-weight: 400;
+}
+
+
+.help-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    column-gap: 120px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.help-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.help-text{
+    font-size: 20px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.help-margined{
+    margin-bottom: 55px;
+}

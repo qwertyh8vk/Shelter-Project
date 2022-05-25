@@ -1,0 +1,45 @@
+.footer-background{
+    
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;;
+    background-color: black;
+}
+
+
+.callback-title{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    
+}
+
+.callback-info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.footer-elements{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 56px;
+    column-gap: 160px;
+}
+
+.footer-callback{
+    display: flex;
+    flex-direction: column;
+    max-width: 302px;
+    row-gap: 40px;
+}
+
+.callback-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
